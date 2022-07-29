@@ -1,0 +1,66 @@
+
+- [ ] implement story 2 as just list of strings
+- [ ] convert into required format
+- [ ] look into api docs
+- [ ] write reports
+- [ ] check whether dynamiclabels issue is because have not saved nodes using java after change was made
+- [ ] update changelogs
+- [ ] add conditions to nodes on path, n > 2
+- [ ] do nested query
+- [ ] purpose of CypherdslConditionExecutor
+- [ ] Look into multi-level projection without edges
+- [ ] Look into multi-level projection that is node label-agnostic to handle multi-label paths
+    - [ ] can then query for paths manually + nodes by ID
+- [ ] https://neo4j.com/docs/cypher-manual/current/query-tuning/using/
+- [ ] d3js
+- [ ] Add 2-hop using multi-level projection
+	- [ ] 2 movies that share the same director, where the top level is above a certain score and bottom level is below a certain score
+	- [ ] give cast members shared by 2 movies
+ acted in the most number of films with Kevin Spacey
+- [ ] Add interface projection
+- [ ] full text search query 
+# Code-based backlog
+- add list of acceptable labels for nodes
+    - https://stackoverflow.com/questions/9623258/passing-an-array-or-list-to-pathvariable-spring-java
+- add optional arguments for path length
+    - https://stackoverflow.com/questions/4904092/with-spring-can-i-make-an-optional-path-variable
+- convert string of ids to nodes
+    - https://stackoverflow.com/questions/18987292/spring-crudrepository-findbyinventoryidslistlong-inventoryidlist-equivalen
+- Add index on node fields
+- Remove index on node fields
+- perform full-text search based on node fields
+- perform search for available indexes
+	- `SHOW INDEXES#FULLTEXT`
+- Handle multiple value-queries
+- Look into custom queries
+- Look into relationship queries
+	- https://docs.spring.io/spring-data/neo4j/docs/current/reference/html/#custom-query.paths
+	- https://community.neo4j.com/t5/drivers-stacks/relationships-not-returned-in-query/m-p/50799
+- Clear database
+- Add to database on a relationship-basis
+- Update relationship in database
+- Delete relationship in database
+- pageable
+
+# documentation backlog
+- https://tom-collings.medium.com/controller-service-repository-16e29a4684e5
+- Look into Slf4j
+	- https://www.baeldung.com/slf4j-with-log4j2-logback
+- Restcontroller
+	- https://www.baeldung.com/spring-controller-vs-restcontroller
+- Rest Spring
+	- https://spring.io/guides/tutorials/rest/
+	- https://www.baeldung.com/spring-data-web-support
+# to consider
+- https://stackoverflow.com/questions/64733986/sprint-data-use-multiple-data-modules-to-inject-same-interface-with-different-im
+- https://www.martinfowler.com/eaaCatalog/
+- - [x] do n-node query
+    - [x] source-sink where all targets are in the path
+    - [ ] with config
+    - [ ] cypherdsl
+        - [x] return only path
+        - [ ] look into using projections to wrap strings in findall
+        - [ ] return nodes string
+        - [ ] return relationships at end of nodes string
+        - [ ] convert both into objects, return list of objects
+        - [ ] handle all permutations'

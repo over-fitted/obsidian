@@ -1,0 +1,8 @@
+- Brown bag meeting was fun
+- met up with HR officer and chat with team b interns
+- spring boot 3.0.0 does not work with Java 11
+	- Used 2.7.0
+- Learned about java package conventions
+	- supposed to use web domain in reverse order so com.google instead of google.com
+- Used springboot initalizr with neo4j dependency
+- Skimmed Java springboot api basics

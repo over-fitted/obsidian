@@ -1,0 +1,4 @@
+- 100: network science
+	- 110: practical stuff
+- 200: working soft skills
+- 300: search engine

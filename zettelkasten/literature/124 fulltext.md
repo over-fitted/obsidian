@@ -1,0 +1,5 @@
+- https://graphaware.com/neo4j/2019/01/11/neo4j-full-text-search-deep-dive.html
+- https://neo4j.com/docs/operations-manual/current/performance/index-configuration/
+- https://neo4j.com/developer/kb/fulltext-search-in-neo4j/
+- https://neo4j.com/docs/cypher-manual/current/indexes-for-full-text-search/#administration-indexes-fulltext-search-create-and-configure
+- 

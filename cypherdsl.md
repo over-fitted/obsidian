@@ -1,0 +1,4 @@
+- relationship pattern
+    - https://neo4j-contrib.github.io/cypher-dsl/current/project-info/apidocs/org/neo4j/cypherdsl/core/RelationshipPattern.html
+    - is a base class of all relationship classes in cypherdsl
+- always start from Cypher base class

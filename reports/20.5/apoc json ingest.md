@@ -1,0 +1,11 @@
+https://github.com/neo4j-contrib/neo4j-apoc-procedures/blob/071eb592a6afe26840219e3fe00e20fda56b36e1/core/src/main/java/apoc/graph/util/GraphsConfig.java#L112
+- details on config passed into [[fromDocument]]
+- map fields as follows
+	- write: boolean
+	- generateId: bool
+	- idField: string
+	- labelField: string
+	- defaultLabel: string
+	- mappings: map
+	- skipvalidation: bool
+	- relMapping: map

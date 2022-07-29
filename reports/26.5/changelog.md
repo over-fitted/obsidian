@@ -1,0 +1,37 @@
+- Talked to some people from Google last night about graph databases
+	- One engineer Yi Xiang mentioned that he also had to do PoCs about graphdbs. He mainly focused on tinkerpop, JanusGraph, tigergraph and neo4j. He preferred using JanusGraph because it allowed him to bigtable and spanner with it without having to replicate the dataset within janusgraph.
+	- He also preferred using Gremlin because the language was more intuitive for engineers already used to Spark and Python.
+	- He noted that he also heard that tigergraph might be faster than neo4j but he did not look into the matter
+	- might be worthwhile to look into janusgraph if we have key:value-oriented or column-oriented datasets like with dynamodb or redis
+- Looked into getting docker to work on the csit laptop
+- Read Qing Ru's repo more thoroughly
+	- found the following quite useful
+		- https://memgraph.com/blog/cypher-best-practices
+			- relationships should be in caps and SNAKE_CASE
+			- nodes should be in PascalCase
+			- properties should be in camelCase
+				- oddly the cheatsheet from the same website uses snake_case for properties
+		- https://memgraph.com/blog/cypher-cheat-sheet
+		- seems to implement queries in cypher with APOC calls as expected, using neo4jdriver. Main takeaway is that I could similarly implement the queries in a service class, then only after use spring to create middleware functionality. Handling of returned data also seems tricky, need to account for that in time distribution.
+		- Need to get more up to speed with the java neo4j driver and org.springframework.data.neo4j.repository to better understand the implementation of the methods in the repo.
+- Read up on KNN and PCA
+	- Appears KNN can be used to classify new data based on training data
+		- label new data based on K nearest neighbours' labels
+	- Makes sense for person-labelling given a bunch of persons that have already been accurately labelled
+- Read up a bit on louvain
+	- better than K means clustering since we have a graph rather than datapoints on a set of axis
+- Read Ryan's additions to repo
+	- seems to be focused on the springboot middleware side of things with tigergraph used as a docker container.
+	- I think I should create my own branch and start fresh from there, since most of the current changes present will be deprecated
+
+# TODO
+- Read up on k means similarity, similarity graph, ANN for recommendation systems
+	- https://medium.com/neo4j/building-a-similarity-graph-with-neo4js-approximate-nearest-neighbors-algorithm-1398583b280b
+	- my assumptions about k means were misguided
+- Get high-level understanding of how louvain actually works
+- Start conversion to Java
+	- connection
+	- basic cypher query to create nodes
+	- teardown query
+	- upload JSON
+- continue pursuing Docker container issue and possibly look into running neo4j as a container

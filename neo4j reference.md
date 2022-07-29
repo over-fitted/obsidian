@@ -1,0 +1,2 @@
+- repeated sequence
+    - https://stackoverflow.com/questions/25733757/seaching-a-repeated-pattern-in-neo4j

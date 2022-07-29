@@ -1,0 +1,4 @@
+- spring with neo4j
+	- https://docs.spring.io/spring-data/neo4j/docs/current/reference/html/#preface
+- controller-service-repository
+	- https://tom-collings.medium.com/controller-service-repository-16e29a4684e5

@@ -1,0 +1,3 @@
+- Docker cannot run
+	- Permission denied, need to be in docker-users group
+	- need docker to attempt to use https://medium.com/neo4j/transform-mongodb-collections-automagically-into-graphs-9ea085d6e3ef

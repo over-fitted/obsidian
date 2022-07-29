@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "3f917b825d1afba6",
+    "type": "split",
+    "children": [
+      {
+        "id": "39823d48f4ff3725",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "26.7.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4e42d22316d156c7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DEMO.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c88a57029b2c1a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7c435eaff9e8ec9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2e86cea3e6d602f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2dccb8587b58261a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"![[Pasted image 20220718145531.png]]\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea747907d5a232d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f018beed99117a94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35373ae2c0c03747",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DEMO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4e42d22316d156c7",
+  "lastOpenFiles": [
+    "DEMO RESULTS.md",
+    "neo4j code.md",
+    "DEMO.md",
+    "26.7.md",
+    "25.7.md",
+    "zettelkasten/literature/110 network visualisation.md",
+    "zettelkasten/literature/103 community detection methods.md",
+    "zettelkasten/permanent/museum.md",
+    "to ask.md",
+    "final presentation.md"
+  ]
+}

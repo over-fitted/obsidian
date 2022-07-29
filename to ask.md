@@ -1,0 +1,1 @@
+when specify nodes, is it only 2 must be in or all must be inv 

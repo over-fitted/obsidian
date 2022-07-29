@@ -1,0 +1,2 @@
+- trying obsidian and supernotes
+- clickup seems better than confluence

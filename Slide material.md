@@ -1,0 +1,48 @@
+- Learning Curve
+	- Cover material used -> experiences using - useful stuff then dead ends
+		- Getting onboarded 
+			- Use-cases research
+		- Cypher + APOC
+			- Youtube
+			- documentation
+				- easy to get started and do basic stuff
+				- show APOC weaknesses
+					- too vague sometimes, no way to configure certain items
+			- neo4j desktop
+			- cursory searches
+			- overall pretty good, show yellow brick road
+		- neo java driver
+			- documentation
+				- mix between easy and difficult items
+			- Weaknesses
+				- have to process rows manually
+			- better to skip if using spring data
+		- Spring Data
+			- non-official documentation
+				- may be outdated
+			- Official documentation
+				- rely on spring boot knowledge
+				- no good getting started guide
+			- youtube
+		- Spring Boot
+			- textbook
+			- CSR
+		- Summarise yellow-brick road
+		- cursory search on cross-domain and path retrieval
+	- Possible not used resources
+		- neo4j forums
+		- reddit
+	- Deadends
+- Surrounding resources
+	- Meetups, Conference, research papers, other people use-cases
+- Work done + difficulties
+	- use-case finding, data cleaning, insertion via cypher, query via spring data
+	- modelling
+		- domain class one direction
+		- too much magic
+- Future todos based on what is covered
+- future todos that are more foreign
+- Possible avenues to look at that I did not
+	- JDBC
+	- embedded java driver
+		- pull example from textbook
